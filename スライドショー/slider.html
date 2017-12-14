@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>スライドショー</title>
+　<link rel="stylesheet" href="style.css">
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/3.1.0/jquery.min.js"></script>
+  <script src="./jquery.bxslider/jquery.bxslider.min.js"></script>
+  <link href="./jquery.bxslider/jquery.bxslider.css" rel="stylesheet">
+    
+<script>
+    $(document).ready(function(){
+    $('.abc').bxSlider({
+auto:true,
+mode:'fade',
+speed:1000,
+slideWidth:400
+    });    
+    });
+    </script>
+</head>
+<body>
+  <div class="abc">
+  <div><img src="1.jpg"></div>
+  <div><img src="12.jpg"></div>
+  <div><img src="13.jpg"></div>
+    </div> 
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

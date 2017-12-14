@@ -1,0 +1,83 @@
+header{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:60px;
+    background-color: deepskyblue;
+}
+
+.logo{float:left;
+    width:200px;
+    padding-left:10px;
+    color:yellow;
+    font-size:35px;
+    line-height:60px;
+    font-weight: 400px;
+}
+.character{
+    position:absolute;
+    top:400px;
+    height:300px;
+    width:400px;
+}
+
+.ToyStorylogo{
+    position:absolute;
+    height:250px;
+    width:500px;
+    top:80px;
+    left:800px;
+}
+
+header ul{float:right;
+    line-height:40px;
+    
+}
+header ul li{
+    float:left;
+    list-style: none;
+    padding-right:20px;
+    color:yellow;
+    font-size:18px;
+}
+
+footer{clear:left;
+    width:100%;
+    height:60px;
+    position:absolute;
+    bottom:0;
+    left:0px;
+    color:white;
+    background-color: deepskyblue;
+    text-align: center;
+    line-height: 60px;
+}
+
+background-image{
+    background-image: url(Andy's-room.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+
+body{
+    background-image: url(Andy's-room.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px 850px;
+    width:100%;
+}
+
+input {
+    top:600px;
+    position: absolute;
+    left:1000px;
+}
+.ToyBox{
+    position: absolute;
+    height:300px;
+    width:400px;
+    top:400px;
+    left:850px;
+}
+
